@@ -1,0 +1,142 @@
+
+///Peaky Blinders
+.peakyBlinders{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 70% 1fr;
+    padding-bottom: 1cap;
+
+    .peakyBlindersDescripton{
+    width: 100%;
+    height: 585px;
+    background: url(../assets/images/Blinders.svg) top center;
+    background-size: cover; 
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    grid-template-rows: 20% 10% 5% 30% 5% 10% 1fr;
+    justify-items: start;
+    align-items: center;
+    
+
+    .womenPeakyBlinders{
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+    }
+
+    h2{
+        font-size: 46px;
+        display: grid;
+        grid-column: 2/3;
+        grid-row:2/3 ;
+        
+    }
+
+    .descriptonNamePeakyBlinders{
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .descriptionPeakyBlinders{
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .sizePeakyBlinders{
+        display: grid;
+        grid-column: 2/3;
+        grid-row:5/6 ;
+
+    }
+    
+    .translatorPeakyBlinders{
+        display: grid;
+        grid-column: 2/3;
+        grid-row:6/7 ;
+    }
+
+    .btnPeakyBlinders{
+        display: grid;
+        grid-column: 2/3;
+        grid-row:7/8 ;
+    }
+       
+
+    }
+    .peakyBlindersAdvantages{
+        height: 200px;
+    }
+}
+
+///Follow Us On Instagram
+.followUsOnOnIstagram{
+    width: 100%;
+    height: 611px;
+
+    .chapterTextInstagramm{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+    h2{
+        font-size: 46px;
+        
+    }
+
+    p{
+        
+        font-size: 16px;
+        margin: 2cap;
+  
+    }
+}
+
+    .chapterImgInstagram {
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5ch;
+
+    }
+
+    
+}
+
+///This Is What Our Customers Say
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+
+
+        h2{
+            font-size: 46px;
+            padding-bottom: 1cap;
+
+        }
+
+        p{
+            font-size: 16px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+
+
+
+        }
+    }
+

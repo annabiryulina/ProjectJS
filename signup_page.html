@@ -9,21 +9,42 @@
     <link rel="stylesheet" href="./style/media.css">
 </head>
 <body>
-    <div class="container">
-        <div id="page_leftside"><img src="" alt=""></div>
-        <div id="page_rightside">
-            <div id="logo"><img src="" alt=""></div>
-            <div class="form">
-                <form id="signup_form">
-                    <h2>Create Account</h2>
-                    <input type="email" id="signup_email" placeholder="Email" required>
-                    <input type="password" id="signup_password" placeholder="Password" required>
-                    <button type="submit">Create Account</button>
-                  </form>
+    <div class="container_sign">
+
+        <div id="signup_page_leftside"><img src="./style/Rectangle 19280.png" alt="signup_page_img" id="signup_page_img"></div>
+
+        <div id="singup_page_rightside">
+
+            <div id="rightside_firstblock">
+                <div id="text_logo">FASCO</div>
+                <h2>Create Account</h2>
+                <div id="signup_google">
+                    <button type="submit" id="google_btn">
+                       <img src="./style/image 939@1x.png" alt="google_logo">
+                       <div id="google_btn_txt">Sign in with Google</div> 
+                    </button>
+                </div>
             </div>
 
+            <div id="rightside_secondblock">
+                <div id="text_OR">- OR -</div>
+                <div class="form">
+                    <form id="signup_form">
+                        <input class='signup_input' type="email" id="signup_email_input" placeholder="  Email" required>
+                        <input class='signup_input' type="password" id="signup_password_input" placeholder="  Password" required>
+                        <button type="submit" id="signup_btn">Create Account</button>
+                        <div id="link_signin_page">Already have an account? <a href="">Login</a></div>
+                    </form>
+                    
+                </div>
+            </div>
+
+            <div id="rightside_thirdblock">
+                <div id="rightside_footer">FASCO Terms & Codnitions</div>
+            </div>
+            
+            
         </div>
-    </div>
         <script type="module" src="/src/main.js"></script>
 </body>
 </html>

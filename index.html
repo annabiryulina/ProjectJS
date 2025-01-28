@@ -5,12 +5,138 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.scss">
     <link rel="stylesheet" href="./style/media.css">
   </head>
   <body>
-  
+
+<!-- Ирина -->
+
+    <header class="header">
+      <div class="header__container">
+        <img src="./assets/logo_fasco.png" class="logo_fasco" alt="logo_fasco"/>
+        <nav class="header__navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Sign in</a></li>
+          </ul>
+        </nav>
+        <button class="header__signup__button">Sign Up</button>
+      </div>
+      <section class="header__section">
+        <div class="header__section__container">
+          <div class="header__image1">
+            <img src="./assets/header_image1.png" alt="header_image1" id="header_image1"/>
+          </div>
+          <div class="header__image__center">
+            <img src="./assets/header_image2.png" alt="header_image2" id="header_image2"/>
+            <img src="./assets/header_image5.png" alt="header_image5" id="header_image5"/>
+            <img src="./assets/header_image6.png" alt="header_image6" id="header_image6"/>
+            <p>NEW COLLECTION</p>
+            <button class="header__shopnow__button">SHOP NOW</button>
+            <img src="./assets/header_image3.png" alt="header_image3" id="header_image3"/>
+          </div>
+          <div class="header__image4">
+            <img src="./assets/header_image4.png" alt="header_image4" id="header_image4"/>
+          </div>
+        </div>
+      </section>
+      </div>
+      <div class="header__brands">
+        <img src="./assets/logo1.png" alt="logo1" id="logo1"/>
+        <img src="./assets/logo2.png" alt="logo2" id="logo2"/>
+        <img src="./assets/logo3.png" alt="logo3" id="logo3"/>
+        <img src="./assets/logo4.png" alt="logo4" id="logo4"/>
+        <img src="./assets/logo5.png" alt="logo5" id="logo5"/>
+      </div>
+    </header>
+
+    <main>
+      <section class="main__section1">
+        <div class="main__section1__timer">
+          <h2>Deals Of The Month</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin.</p>
+          <button class="main__buynow__button">Buy Now</button>
+          <h3>Hurry, Before It's Too Late!</h3>
+          <div class="main__section1__countdown">
+            <div class="main__section1__timebox">
+              <span class="timebox__number"></span>
+              <span class="label">Days</span>
+            </div>
+            <div class="main__section1__timebox">
+              <span class="timebox__number"></span>
+              <span class="label">Hr</span>
+            </div>
+            <div class="main__section1__timebox">
+              <span class="timebox__number"></span>
+              <span class="label">Mins</span>
+            </div>
+            <div class="main__section1__timebox">
+              <span class="timebox__number"></span>
+              <span class="label">Sec</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__section1__slider">
+          <div class="main__section1__slide__active">
+            <img src="#" alt="slide1">
+            <div class="main__section1__slider__info">
+              <p>01 — Spring Sale</p>
+              <h3>30% OFF</h3>
+            </div>
+          </div>
+          <div class="main__section1__slide">
+            <img src="#" alt="slide2">
+          </div>
+          <div class="main__section1__slide">
+            <img src="#" alt="slide3">
+          </div>
+          <div class="main__section1__slider__nav">
+            <button class="section1__slider__prev">❮</button>
+            <button class="section1__slider__next">❯</button>
+          </div>
+          <div class="main__section1__slider__dots">
+            <span class="slider__dot__active"></span>
+            <span class="slider__dot"></span>
+            <span class="slider__dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section2">
+        <div class="main__section2__text">
+          <h1>New Arrivals</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin.</p>
+        </div>
+        <nav class="main__section2__navigation">
+          <ul>
+            <li><a href="#">Man's Fashion</a></li>
+            <li><a href="#">Woman's Fashion</a></li>
+            <li><a href="#">Man Accessories</a></li>
+            <li><a href="#">Woman Accessories</a></li>
+            <li><a href="#">Discount Deals</a></li>
+          </ul>
+        </nav>
+        <div class="main__section2__products">
+          <div class="main__section2__card">
+
+          </div>
+        </div>
+
+        <button class="main__viewmore__button">View More</button>
+
+
+      </section>
+    </main>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

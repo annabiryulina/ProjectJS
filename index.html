@@ -49,14 +49,14 @@
           <h2>This Is What Our Customers Say</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis</p>
       </div>
-      <div>
+      <div class="sliderImg">
         <img src="./assets/images/reviewsJames.svg" alt="reviews">
-        <!--<img src="./assets/images/reviewsMegen.svg" alt="reviews">
-        <img src="./assets/images/reviewsSuzan.svg" alt="reviews">-->
+        <img src="./assets/images/reviewsMegen.svg" alt="reviews">
+        <img src="./assets/images/reviewsSuzan.svg" alt="reviews">
       </div>
       <div class="reviewSectionBtn">
-        <button type="button" onclick="" class="btnLeft"></button>
-        <button type="button" onclick="" class="btnRight"></button>
+        <button type="button"  class="btnLeft"></button>
+        <button type="button"  class="btnRight"></button>
       </div>
     </div>
     <div>
@@ -66,8 +66,10 @@
         <div class="subscriptionForm">
           <h2>Subscribe To Our Newsletter</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis  ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
-          <input type="mail" placeholder="michael@ymail.com">
-          <button>Subscribe Now</button>
+          <input type="email" placeholder="michael@ymail.com" id="emailInput">
+          <p id="result">- </p>
+          <button type="submit" id="subscribeButton" >Subscribe Now</button>
+          
         </div>
         <img src="./assets/images/imageSubscriptionWomen.png" alt="">
       </div>

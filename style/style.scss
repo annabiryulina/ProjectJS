@@ -22,14 +22,14 @@ body{
 ///Peaky Blinders
 .peakyBlinders{
     width: 100%;
-    height: 800px;
+    height: 600px;
     display: grid;
     grid-template-rows: 70% 1fr;
     padding-bottom: 1cap;
 
     .peakyBlindersDescripton{
     width: 100%;
-    height: 585px;
+    height: 450px;
     background: url(../assets/images/Blinders.svg) top center;
     background-size: cover; 
     display: grid;
@@ -81,7 +81,7 @@ body{
 
     .btnPeakyBlinders{
         width: 207px;
-        height: 56px;
+        height: 45px;
         display: grid;
         grid-column: 2/3;
         grid-row:7/8 ;
@@ -104,8 +104,9 @@ body{
 ///Follow Us On Instagram
 .followUsOnOnIstagram{
     width: 100%;
-    height: 611px;
+    height: 500px;
     background-color: rgb(255, 255, 255);
+    padding-top: 1%;
 
     .chapterTextInstagramm{
         
@@ -131,6 +132,7 @@ body{
 
     .chapterImgInstagram {
         width: 98%;
+        height: 300px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -147,7 +149,7 @@ body{
 ///This Is What Our Customers Say
     .reviews {
         background-color: rgb(247, 247, 247);
-        height: 840px;
+        height: 700px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -169,6 +171,17 @@ body{
 
         }
 
+        .sliderImg{
+            width: 864px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            object-fit: cover;
+            overflow: hidden;
+            transition: transform 3s ease-in-out;
+        }
+
         .reviewSectionBtn{
             display: flex;
 
@@ -176,7 +189,7 @@ body{
                 position:static;
                 width: 48px;
                 height: 48px;
-                border: none;
+                //border: none;
                 background-image: url('../assets/images/btnLeft.png');
                 background-size: cover;
             }
@@ -184,7 +197,7 @@ body{
                 position:static;
                 width: 48px;
                 height: 48px;
-                border: none;
+                //border: none;
                 background-image: url('..//assets/images/btnRight.png');
                 background-size: cover;
             }
@@ -231,6 +244,10 @@ body{
             position:static;
             background-size: cover;
             border-radius: 10px;
+        }
+
+        #result{
+            color: #484848;
         }
         
     }

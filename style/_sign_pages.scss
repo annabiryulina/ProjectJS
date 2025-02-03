@@ -132,9 +132,12 @@ $colorblue:  rgb(91, 134, 229);
                             box-shadow: 5px 20px 20px 0px rgba(109, 107, 107, 0.15);
                             width: 80%;
                         }
-                        .sign_btn {
+                        #signup_btn {
                             @include btn(black, white, 30px)    
-                        }                         
+                        }  
+                        #signin_btn{
+                            @include btn(black, white, 30px)
+                        }                       
                 }
         }
 }

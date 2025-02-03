@@ -19,9 +19,9 @@
                 <div class="text_logo">FASCO</div>
                 <h2>Sign In To FASCO</h2>
                 <div class="sign_google">
-                    <button type="submit" class="google_btn">
-                       <img src="./style/image 939@1x.png" alt="google_logo">
-                       <div class="google_btn_txt">Sign in with Google</div> 
+                    <button type="click" class="google_btn" id="signin_google">
+                        <img src="./style/image 939@1x.png" alt="google_logo">
+                        <div class="google_btn_txt">Sign in with Google</div> 
                     </button>
                 </div>
             </div>
@@ -29,11 +29,11 @@
             <div class="rightside_secondblock">
                 <div class="text_OR">- OR -</div>
                 <div class="form_container">
-                    <form class="sign_form">
-                        <input  type="email" id="signup_email_input" placeholder="  Email" required>
-                        <input  type="password" id="signup_password_input" placeholder="  Password" required>
-                        <button type="submit" class="sign_btn">Sign In</button>
-                        <button id="register_btn">Register Now</button>
+                    <form class='sign_form' id="signin_form">
+                        <input  type="email" id="signin_email" placeholder="  Email" required>
+                        <input  type="password" id="signin_password" placeholder="  Password" required>
+                        <button type="submit" id="signin_btn">Sign In</button>
+                        <button type='click' id="register_btn">Register Now</button>
                     </form>
                     
                 </div>
@@ -45,6 +45,6 @@
             
             
         </div>
-        <script type="module" src="/src/main.js"></script>
+        <script type="module" src="./src/signin.js"></script>
 </body>
 </html>

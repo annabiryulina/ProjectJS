@@ -1,0 +1,209 @@
+/*# sourceMappingURL=style.css.map */
+
+@font-face {
+  src: url(../assets/fonts/VolkhovRegular.ttf);
+  font-family: "VolkhovRegular";
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+body h2 {
+  font-family: "VolkhovRegular";
+  color: #484848;
+}
+body p {
+  font-family: "PoppinsRegular";
+  color: #8A8A8A;
+}
+body .peakyBlinders {
+  width: 100%;
+  height: 800px;
+  display: grid;
+  grid-template-rows: 70% 1fr;
+  padding-bottom: 1cap;
+}
+body .peakyBlinders .peakyBlindersDescripton {
+  width: 100%;
+  height: 585px;
+  background: url(../assets/images/Blinders.svg) top center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  grid-template-rows: 20% 10% 5% 30% 5% 10% 1fr;
+  justify-items: start;
+  align-items: center;
+}
+body .peakyBlinders .peakyBlindersDescripton .womenPeakyBlinders {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+body .peakyBlinders .peakyBlindersDescripton h2 {
+  font-size: 46px;
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+body .peakyBlinders .peakyBlindersDescripton .descriptonNamePeakyBlinders {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+body .peakyBlinders .peakyBlindersDescripton .descriptionPeakyBlinders {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+body .peakyBlinders .peakyBlindersDescripton .sizePeakyBlinders {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+body .peakyBlinders .peakyBlindersDescripton .translatorPeakyBlinders {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+body .peakyBlinders .peakyBlindersDescripton .btnPeakyBlinders {
+  width: 207px;
+  height: 56px;
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 7/8;
+  align-items: center;
+  background-color: black;
+  color: white;
+  position: static;
+  background-size: cover;
+  border-radius: 10px;
+}
+body .peakyBlinders .peakyBlindersAdvantages {
+  height: 200px;
+}
+body .followUsOnOnIstagram {
+  width: 100%;
+  height: 611px;
+  background-color: rgb(255, 255, 255);
+}
+body .followUsOnOnIstagram .chapterTextInstagramm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+body .followUsOnOnIstagram .chapterTextInstagramm h2 {
+  font-size: 46px;
+}
+body .followUsOnOnIstagram .chapterTextInstagramm p {
+  font-size: 16px;
+  margin: 2cap;
+}
+body .followUsOnOnIstagram .chapterImgInstagram {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5ch;
+}
+body .reviews {
+  background-color: rgb(247, 247, 247);
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+body .reviews h2 {
+  font-size: 46px;
+  padding-bottom: 1cap;
+}
+body .reviews p {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+body .reviews .reviewSectionBtn {
+  display: flex;
+}
+body .reviews .reviewSectionBtn .btnLeft {
+  position: static;
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-image: url("../assets/images/btnLeft.png");
+  background-size: cover;
+}
+body .reviews .reviewSectionBtn .btnRight {
+  position: static;
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-image: url("..//assets/images/btnRight.png");
+  background-size: cover;
+}
+body .subscription {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .subscription h2 {
+  font-size: 42px;
+  padding-bottom: 1cap;
+}
+body .subscription p {
+  font-size: 16px;
+  padding-bottom: 1cap;
+}
+body .subscription .subscriptionForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .subscription .subscriptionForm input {
+  background-color: rgb(238, 236, 236);
+  width: 100%;
+  height: 2rem;
+  padding: 2cap;
+}
+body .subscription .subscriptionForm button {
+  margin-top: 2cap;
+  width: 207px;
+  height: 56px;
+  background-color: black;
+  color: white;
+  position: static;
+  background-size: cover;
+  border-radius: 10px;
+}
+body .subscription img {
+  padding: 1%;
+}
+body footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-top: 1px solid gray;
+}
+body footer h2 {
+  font-size: 32px;
+  padding-left: 2%;
+}
+body footer p {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+/*# sourceMappingURL=style.css.map */

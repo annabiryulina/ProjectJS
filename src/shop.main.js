@@ -34,24 +34,7 @@ document.querySelectorAll('a').forEach(link => {
   }); 
 
 
-  
-  function handleSearch() {
-    alert("Searching...");
-  }
-  
-  function handleProfile() {
-    alert("Profile clicked");
-  }
-  
-  function handleFavorites() {
-    alert("Favorites clicked");
-  }
-  
-  function handleCart() {
-    alert("Cart clicked");
-  }
-  
-  
+
   let products = [];
   let filteredProducts = [];
   let categories = [];
@@ -61,7 +44,8 @@ document.querySelectorAll('a').forEach(link => {
   async function loadShopPage() {
     const content = document.getElementById("content");
     content.innerHTML = `
-      <h1>Shop</h1>
+      <h1 class = "header-shop">Fashion</h1>
+      <p class = "paragraphe-shop">Home <span> > </span> Fashion</p>
       <div class="container">
         <div class="sidebar">
           <h2>Filters</h2>
@@ -128,6 +112,7 @@ document.querySelectorAll('a').forEach(link => {
       applyFilters();  
     } catch (error) {
       console.error('Error fetching products:', error);
+      alert('Download Failed');
     }
   }
   
@@ -172,7 +157,10 @@ document.querySelectorAll('a').forEach(link => {
   
     const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
     
-   
+    if (totalPages <= 1) {
+      pagination.style.display = 'none'; 
+    } else {
+      pagination.style.display = 'flex';
   
     
     for (let i = 1; i <= totalPages; i++) {
@@ -181,6 +169,7 @@ document.querySelectorAll('a').forEach(link => {
       button.addEventListener('click', () => goToPage(i));
       pagination.appendChild(button);
     }
+  }
   }
   
   function goToPage(page) {

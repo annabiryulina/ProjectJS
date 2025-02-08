@@ -1,5 +1,5 @@
 
-import '../style/style.scss';
+import '../style/shop.style.scss';
 
 function navigate(page) { 
     const content = document.getElementById("content");

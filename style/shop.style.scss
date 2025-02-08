@@ -163,7 +163,7 @@
 
 .product-card {
   width: calc(33.33% - 20px);
-  height: 450px; 
+  height: auto; 
   display: flex;
   flex-direction: column; 
   justify-content: space-between; 
@@ -207,8 +207,8 @@
   color: #555;
   margin: 10px 0; 
   flex-grow: 1; 
-  overflow: hidden; 
-  text-overflow: ellipsis; 
+  overflow: hidden;
+  
 }
 
 
@@ -228,6 +228,9 @@
 @media (max-width: 480px) {
   .product-card {
     width: 100%; 
+  }
+  .product-card p {
+    font-size: 12px;
   }
 }
 

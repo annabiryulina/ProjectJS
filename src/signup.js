@@ -38,7 +38,7 @@ upGoogleButton.addEventListener('click', async(event) => {
 
 function createUser(email, password, auth) {
     createUserWithEmailAndPassword (auth, email, password)
-    .then((userCredential) => { 
+    .then((userCredential) => {
         const user = userCredential.user;
         alert ('Регистрация прошла успешно')
     })
@@ -59,3 +59,6 @@ signupForm.addEventListener('submit', async (event) => {
     createUser(email, password, auth);
 });
 
+document.querySelector(".header_signup_button").addEventListener("click", function() {
+    window.location.href = "signup_page.html";
+});

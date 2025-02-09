@@ -691,6 +691,14 @@ body{
                 background-image: url('..//assets/images/btnRight.png');
                 background-size: cover;
             }
+            .btnLeft{
+              position:static;
+              width: 48px;
+              height: 48px;
+              //border: none;
+              background-image: url('../assets/images/btnLeft.png');
+              background-size: cover;
+            }
         }
     }
 

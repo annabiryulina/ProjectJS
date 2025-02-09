@@ -1,3 +1,5 @@
+//Anna
+
 import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, getAuth, signInWithPopup, GoogleAuthProvider} from "firebase/auth";
 
@@ -40,7 +42,6 @@ function createUser(email, password, auth) {
     createUserWithEmailAndPassword (auth, email, password)
     .then((userCredential) => {
         const user = userCredential.user;
-        alert ('Регистрация прошла успешно')
     })
     .catch((error) => {
         const errorCode = error.code;
@@ -57,6 +58,7 @@ signupForm.addEventListener('submit', async (event) => {
     const password = document.getElementById('signup_password').value;
     const auth = getAuth();
     createUser(email, password, auth);
+    window.location.href = './welcome_after_sign.html';
 });
 
 document.querySelector(".header_signup_button").addEventListener("click", function() {

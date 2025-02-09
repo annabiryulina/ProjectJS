@@ -1,3 +1,5 @@
+// Anna
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 $fontVolkhov: Volkhov;
@@ -145,9 +147,9 @@ $colorblue:  rgb(91, 134, 229);
 #link_signin_page {
     @extend %fontP16;
     margin-top: 5px;
-     a {
+    a {
         color: $colorblue;
-     }
+    }
 }
 
 #register_btn {

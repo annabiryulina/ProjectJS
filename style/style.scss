@@ -526,7 +526,7 @@ body{
 
 .peakyBlinders{
     width: 100%;
-    height: 600px;
+    height: 670px;
     display: grid;
     grid-template-rows: 70% 1fr;
     padding-bottom: 1cap;
@@ -605,7 +605,7 @@ body{
 
 .followUsOnOnIstagram{
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: rgb(255, 255, 255);
     padding-top: 1%;
 
@@ -664,7 +664,7 @@ body{
         }
 
         .sliderImg{
-            width: 864px;
+            width: 55%;
             height: 400px;
             display: flex;
             justify-content: center;
@@ -672,6 +672,12 @@ body{
             object-fit: cover;
             overflow: hidden;
             transition: transform 3s ease-in-out;
+
+            img{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
         }
 
         .reviewSectionBtn{
@@ -684,6 +690,14 @@ body{
                 //border: none;
                 background-image: url('..//assets/images/btnRight.png');
                 background-size: cover;
+            }
+            .btnLeft{
+              position:static;
+              width: 48px;
+              height: 48px;
+              //border: none;
+              background-image: url('../assets/images/btnLeft.png');
+              background-size: cover;
             }
         }
     }

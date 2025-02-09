@@ -1,3 +1,4 @@
+//Anna
 
 import { initializeApp } from "firebase/app";
 import { signInWithEmailAndPassword, signInWithRedirect, getAuth,  GoogleAuthProvider} from "firebase/auth";
@@ -19,7 +20,7 @@ function logInUser(email, password, auth){
     signInWithEmailAndPassword (auth, email, password)
     .then((userCredential) => {
         const user = userCredential.user;
-        alert ('Авторизация прошла успешно')
+        
     })
     .catch((error) => {
         const errorCode = error.code;
@@ -57,6 +58,7 @@ signinForm.addEventListener('submit', async (event) => {
     const email = document.getElementById('signin_email').value;
     const password = document.getElementById('signin_password').value;
     logInUser(email, password, auth);
+    window.location.href = './welcome_after_sign.html';
 });
 
 const registerBtn = document.getElementById('register_btn');

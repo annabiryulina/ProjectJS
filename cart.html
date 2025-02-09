@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/cart.scss">
+    <link rel="stylesheet" href="./style/media.css">
+    <title>Cart</title>
+</head>
+<body>
+    <header class="header-cart">
+            <div class="header-cart__container container">
+                <div class="header-cart__logo-text">
+                    <p>Fasco</p>
+                </div>
+                <nav class="header-cart__nav">
+                    <ul class="nav-header-cart">
+                        <li class="nav-header-cart__item">
+                            <a class="nav-header-cart__link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-header-cart__item">
+                            <a class="nav-header-cart__link" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-header-cart__item">
+                            <a class="nav-header-cart__link" href="#">Products</a>
+                        </li>
+                        <li class="nav-header-cart__item">
+                            <a class="nav-header-cart__link" href="#">Pages</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-cart__tools">
+                    <a class="tools_item" href="#">
+                        <img src="./assets/images/cart_search.png" alt="search">
+                    </a>
+                    <a class="tools_item" href="#">
+                        <img src="./assets/images/cart_log.png" alt="log">
+                    </a>
+                    <a class="tools_item" href="#">
+                        <img src="./assets/images/cart_favorite.png" alt="favorite">
+                    </a>
+                    <a class="tools_item cart" href="#">
+                        <img src="./assets/images/cart.png" alt="cart">
+                        <div class="tools_item__cart-num">0</div>
+                    </a>
+                </div>
+            </div>
+    </header>
+    <main> 
+        <!--Shopping Cart-->
+        <div class="shopping-cart">
+            <div class="shopping-cart__container container">
+                <h1 class="shopping-cart__title">Shopping Cart</h1>
+                <p class="shopping-cart__link-home">
+                    <a href="./index.html">Home </a>&#62; <span>Your Shopping Cart</span> 
+                </p>
+                <div class="table">
+                    <div class="table__header">
+                        <div class="table__item table__item_product">Product</div>
+                        <div class="table__item table__item_price">Price</div>
+                        <div class="table__item table__item_quantity">Quantity</div>
+                        <div class="table__item table__item_total">Total</div>
+                    </div>
+                    <div class="table__cart-empty"> Your cart is empty.</div>
+                    <div class="table__product-row none">
+                        <div class="table__item table__item_product">
+                            <div class="item-product">
+                                <div class="item-product-image">
+                                    <img src="./assets/images/productImage.png" alt="Product Image">
+                                </div>
+                                <div class="item-product-name">
+                                    <p>Mini Dress With Ruffled Straps</p>
+                                    <button>Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__item table__item_price">$14.90</div>
+                        <div class="table__item table__item_quantity">
+                            <div class="items counter-wrapper">
+                                <div class="items__control" data-action="minus">-</div>
+                                <div class="items__current" data-counter="">01</div>
+                                <div class="items__control" data-action="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="table__item table__item_total">$14.90</div>
+                    </div>
+                    <div class="table__subtotal">
+                        <div class="subtotal">
+                            <div class="subtotal__title">Subtotal</div>
+                            <div class="subtotal__price"><span>$</span> 0.00</div>
+                        </div>
+                        <button type="submit" class="table__button">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Subscribe To Our Newsletter-->
+        <div class="subscription-cart subscription-cart_container">
+            <img src="./assets/images/imageSubscriptionMen.png" alt="men">
+            <div class="subscription-cart__form">
+                <h2 class="subscription-cart__title">Subscribe To Our Newsletter</h2>
+                <p class="subscription-cart__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis  ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
+                <input type="email" placeholder="michael@ymail.com" id="emailInput">
+                <p id="result"></p>
+            <button class="subscription-cart__button" type="submit" id="subscribeButton">Subscribe Now</button>
+            </div>
+        <img src="./assets/images/imageSubscriptionWomen.png" alt="girl">
+        </div>
+    </div>
+
+        <footer class="footer-cart container">
+            <h2 class="footer-cart__title">FASCO</h2>
+            <p class="footer-cart__text">Copyright © 2022 Xpro . All Rights Reseved.</p>
+        </footer>
+    </main>
+</body>
+</html>

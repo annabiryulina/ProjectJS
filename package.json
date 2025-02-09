@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@tomjs/vite-plugin-html": "^1.5.2",
+    "html-minifier": "^4.0.0",
+    "sass": "^1.83.4",
     "sass-embedded": "^1.83.4",
     "vite": "^6.0.5"
   },

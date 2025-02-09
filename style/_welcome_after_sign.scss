@@ -1,0 +1,142 @@
+// Anna
+
+@font-face {
+    src: url(../assets/fonts/VolkhovRegular.ttf);
+    font-family: "VolkhovRegular";
+}
+
+@font-face {
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+    font-family: "PoppinsRegular";
+}
+
+$fontVolkhov: "VolkhovRegular";
+$background255: rgb(255, 255, 255);
+$border219: 1px solid rgb(219, 219, 219);
+$colorblue:  rgb(91, 134, 229);
+
+%fontP25 {
+    font-family: "PoppinsRegular";
+    font-size: 25px;
+}
+
+.container_welcome{
+    width: 100%;
+    height: 1080px;
+    padding: 100px 50px;
+    background: $background255;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome_block1 {
+    width: 50%;
+    height: 67px;
+    font-family: $fontVolkhov;
+    font-size: 66.6px;
+    color: rgb(72, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#welcome_block2 {
+    @extend %fontP25;
+    color: rgb(72, 72, 72);
+    margin-bottom: 20px;
+}
+
+.arrow-down {
+    margin: 30px;
+}
+.arrow-down span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid $colorblue;
+    border-right: 5px solid $colorblue;
+    transform: rotate(45deg);
+    margin: -16px;
+    animation: arrow-down 2s infinite;
+}
+.arrow-down span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-down span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-down {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+#welcome_block4 {
+    margin: 40px;  
+}
+
+#shop_image {
+    width: 700px;
+    transition: 1s;
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+}
+
+#shop_image:hover {
+    transform: scale(1.30); 
+}
+
+#welcome_block5 {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;;
+    padding-bottom: 35px;
+}
+
+.arrow-right span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid $colorblue;
+    border-right: 3px solid $colorblue;
+    margin: -2px;
+    animation: arrow-right 1s infinite;
+    float: left;
+}
+
+.arrow-right span:nth-child(2){
+    animation-delay: -0.1s;
+}
+.arrow-right span:nth-child(3){
+    animation-delay: -0.2s;
+}
+@keyframes arrow-right {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-0px,-0px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(0px,0px);
+    }
+}
+
+#to_home_page {
+    @extend %fontP25;
+    a{color: $colorblue;
+    }  
+}
+

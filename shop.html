@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/media.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="./assets/images/FASCO.png" alt="FASCO"></div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#" data-page="home">Home</a></li>
+<li><a href="#" data-page="shop">Shop</a></li>
+<li><a href="#" data-page="products">Products</a></li>
+<li><a href="#" data-page="pages">Pages</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <a href="#" class="icon" id="search-icon" ><img src="assets\images\m-search-popup.png" alt="Search"></a>
+        <a href="#" class="icon" id="profile-icon" ><img src="assets\images\profileavatar-link.png" alt="profile-icon"></a>
+        <a href="#" class="icon" id="favorites-icon" ><img src="assets\images\star-icon.png" alt="star-icon"></a>
+        <a href="#" class="icon" id="cart-icon" ><img src="assets\images\bin.png" alt="basket"></a>
+      </div>
+    </header>
+
+    <main id="content">
+      <h1>Welcome to FASCO!</h1>
+      <p>Browse our amazing products!</p>
+
+      <div class="sidebar">
+        <h2>Фильтры</h2>
+        <label for="min-price">Мин. Цена:</label>
+        <input type="number" id="min-price" placeholder="0"  min="0" />
+        
+        <label for="max-price">Макс. Цена:</label>
+        <input type="number" id="max-price" placeholder="1000"  min="0" />
+        
+        <button onclick="applyFilters()">Применить фильтры</button>
+      </div>
+
+      <div class="product-list-container">
+      <div id="product-list" class="product-list"></div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+  <div class="quantity-controls">
+    <button class="quantity-btn" id="decrease">-</button>
+    <span class="quantity" id="quantity">1</span>
+    <button class="quantity-btn" id="increase">+</button>
+  </div>
+
+ 
+  <div class="add-to-cart">
+    <button class="add-to-cart-btn">
+      &#128722; 
+    </button>
+  </div>
+</div>
+
+    </main>
+
+
+    <script type="module" src="/src/shop.main.js"></script>
+  </body>
+</html>

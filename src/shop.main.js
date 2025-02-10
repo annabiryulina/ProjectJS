@@ -45,7 +45,10 @@ document.querySelectorAll('a').forEach(link => {
     const content = document.getElementById("content");
     content.innerHTML = `
       <h1 class = "header-shop">Fashion</h1>
-      <a class = "link-in-shop" href="index.html" target="_blank" rel="noopener noreferrer"> <p class = "paragraphe-shop">Home </a> <span> > </span> Fashion</p>
+    <p class="paragraphe-shop">
+  <a class="link-in-shop" href="index.html" target="_blank" rel="noopener noreferrer">Home</a>
+  <span> > </span> Fashion
+</p>
       <div class="container">
         <div class="sidebar">
           <h2>Filters</h2>

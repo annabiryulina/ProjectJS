@@ -43,7 +43,6 @@
                     </a>
                     <a class="tools_item cart" href="#">
                         <img src="./assets/images/cart.png" alt="cart">
-                        <div class="tools_item__cart-num">0</div>
                     </a>
                 </div>
             </div>
@@ -63,35 +62,22 @@
                         <div class="table__item table__item_quantity">Quantity</div>
                         <div class="table__item table__item_total">Total</div>
                     </div>
-                    <div class="table__cart-empty"> Your cart is empty.</div>
-                    <div class="table__product-row none">
-                        <div class="table__item table__item_product">
-                            <div class="item-product">
-                                <div class="item-product-image">
-                                    <img src="./assets/images/productImage.png" alt="Product Image">
-                                </div>
-                                <div class="item-product-name">
-                                    <p>Mini Dress With Ruffled Straps</p>
-                                    <button>Remove</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="table__item table__item_price">$14.90</div>
-                        <div class="table__item table__item_quantity">
-                            <div class="items counter-wrapper">
-                                <div class="items__control" data-action="minus">-</div>
-                                <div class="items__current" data-counter="">01</div>
-                                <div class="items__control" data-action="plus">+</div>
-                            </div>
-                        </div>
-                        <div class="table__item table__item_total">$14.90</div>
-                    </div>
+                    <div id="cart-content"></div>
                     <div class="table__subtotal">
-                        <div class="subtotal">
-                            <div class="subtotal__title">Subtotal</div>
-                            <div class="subtotal__price"><span>$</span> 0.00</div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="wrapProduct">
+                            <label class="form-check-label" for="wrapProduct">
+                                For <span class="text-dark">$10.00</span>, please wrap the product
+                            </label>
                         </div>
-                        <button type="submit" class="table__button">Checkout</button>
+                        <div class="subtotal">
+                            <div class="subtotal__title">Subtotal:</div>
+                            <div id="subtotal" class="subtotal__price"><span>$</span> 0.00</div>
+                        </div>
+                        <div class="checkout">
+                            <a href="./checkout.html" class="checkout__button">Checkout</a>
+                            <a href="#" class="checkout__link">View Cart</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,7 +90,7 @@
                 <h2 class="subscription-cart__title">Subscribe To Our Newsletter</h2>
                 <p class="subscription-cart__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis  ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
                 <input type="email" placeholder="michael@ymail.com" id="emailInput">
-                <p id="result"></p>
+                <p class="subscription-cart__result" id="result"></p>
             <button class="subscription-cart__button" type="submit" id="subscribeButton">Subscribe Now</button>
             </div>
         <img src="./assets/images/imageSubscriptionWomen.png" alt="girl">
@@ -116,5 +102,6 @@
             <p class="footer-cart__text">Copyright © 2022 Xpro . All Rights Reseved.</p>
         </footer>
     </main>
+    <script src="./src/cart.main.js"></script>
 </body>
 </html>

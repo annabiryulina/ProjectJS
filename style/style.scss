@@ -73,7 +73,7 @@ header {
     }
 
     .header__signup__button {
-      width: 120px;
+      width: 95px;
       background-color: $button-bg;
       color: $button-text-color;
       border: none;
@@ -193,9 +193,9 @@ header {
     }
 
     .main__buynow__button {
-      width: 130px;
+      width: 150px;
       background-color: $button-bg;
-      color: $button-text-color;
+      color: #fff;
       font-family:"montserrat-regular";
       font-size: 1rem;
       border: none;
@@ -257,70 +257,71 @@ header {
 
 // Homepage_slider
 
-.main__section1 {
-  &__slider {
-    width: 60%;
-    position: relative;
+.main__section1__slider {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+
+  .main__section1__slides {
     display: flex;
-    align-items: center;
+    transition: transform 0.5s ease;
   }
 
-  &__slide {
-    width: 100%;
-    opacity: 0.5;
+  .main__section1__slide {
+    display: inline-block;
     transform: scale(1);
     transition: opacity 0.5s ease, transform 0.5s ease;
-    flex-shrink: 0;
 
-    &.main__section1__slide__active {
-      opacity: 1 !important;
+    &.active {
       transform: scale(1.1);
     }
 
     img {
-      width: 50%;
-      object-fit: cover;
+      width: 95%;
+      margin-left: 85px;
+    }
+
+    .main__section1__slider__info {
+      background-color: rgba(233, 228, 228, 0.7);
+      color: #000000;
+      font-family: "montserrat-regular";
+      position: absolute;
+      bottom: 1rem;
+      left: 6.5rem;
+      padding: 25px 25px;
+      margin-right: 55px;
+
+      p {
+        color: #000;
+        font-size: 1rem;
+        margin: 0;
+      }
+
+      h3 {
+        color: #000;
+        font-size: 1.5rem;
+        margin: 0;
+      }
     }
   }
 
-  &__info {
-    background-color: rgba(233, 228, 228, 0.7);
-    color: #000;
-    font-family: "montserrat-regular";
+  .main__section1__slider__nav {
     position: absolute;
-    bottom: 0.5rem;
-    left: 4.5rem;
-    transform: translateX(-50%);
-    padding: 25px 25px;
-    margin-right: 35px;
-
-    p {
-      color: #000;
-      font-size: 1rem;
-      margin: 0;
-    }
-
-    h3 {
-      color: #000;
-      font-size: 1.5rem;
-      margin: 0;
-    }
-  }
-
-  &__nav {
-    position: absolute;
-    left: 1rem;
-    bottom: 10px;
+    left: 4.4%;
+    bottom: 0;
     display: flex;
-    gap: 15px;
-    margin-right: 5px;
+    justify-content: space-between;
+    transform: translateX(-50%);
+    gap: 6px;
+    margin-bottom: 5.5px;
 
     button {
       background-color: #fff;
+      font-size: 0.7rem;
       border: none;
-      font-size: 1rem;
-      position: absolute;
-      right: 0;
       cursor: pointer;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       border-radius: 50%;
@@ -333,27 +334,23 @@ header {
     }
   }
 
-  &__dots {
+  .main__section1__slider__dots {
     display: flex;
-    bottom: 10px;
-    left: 50%;
-    gap: 0.5rem;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 240px;
-    transform: translateX(-50%);
+    gap: 0.8rem;
+    margin-top: 430px;
+    margin-left: 20px;
+
 
     .slider__dot {
-      height: 8px;
-      width: 8px;
-      background-color: #ddd;
+      height: 9px;
+      width: 9px;
+      background-color: #aba4a4;
       border-radius: 50%;
       cursor: pointer;
       transition: background-color 0.3s ease;
 
-      &.slider__dot__active {
+      &.active {
         background-color: #333;
-        transform: scale(1.5);
       }
     }
   }
@@ -364,6 +361,9 @@ header {
 .main__section2 {
   text-align: center;
   padding: 50px 100px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+
 
   &__text {
     h1 {
@@ -424,8 +424,8 @@ header {
     grid-template-rows: repeat(2, auto);
     text-align: left;
     gap: $grid-gap;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 
@@ -443,6 +443,7 @@ header {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  margin: 10px;
 
   img {
     max-width: 100%;
@@ -456,7 +457,7 @@ header {
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 10px;
   }
@@ -468,7 +469,8 @@ header {
   }
 
   .card_stars img {
-    font-size: 50%;
+    height: 10%;
+    width: 10%;
   }
 
   .new_arrivals_price {
@@ -484,20 +486,17 @@ header {
 }
 
 .main__viewmore__button {
+  width: 170px;
   background-color: $button-bg;
-  color: $button-text-color;
+  color: #fff;
   font-family: "montserrat-regular";
   font-size: 1rem;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s;
-  padding: 10px 30px;
-  margin-top: 30px;
-
-  &:hover {
-    background-color: #d98888;
-  }
+  padding: 11px 11px;
+  margin: 15px auto;
 }
 
 
@@ -526,7 +525,7 @@ body{
 
 .peakyBlinders{
     width: 100%;
-    height: 600px;
+    height: 670px;
     display: grid;
     grid-template-rows: 70% 1fr;
     padding-bottom: 1cap;
@@ -605,7 +604,7 @@ body{
 
 .followUsOnOnIstagram{
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: rgb(255, 255, 255);
     padding-top: 1%;
 
@@ -664,7 +663,7 @@ body{
         }
 
         .sliderImg{
-            width: 864px;
+            width: 55%;
             height: 400px;
             display: flex;
             justify-content: center;
@@ -672,6 +671,12 @@ body{
             object-fit: cover;
             overflow: hidden;
             transition: transform 3s ease-in-out;
+
+            img{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
         }
 
         .reviewSectionBtn{
@@ -684,6 +689,14 @@ body{
                 //border: none;
                 background-image: url('..//assets/images/btnRight.png');
                 background-size: cover;
+            }
+            .btnLeft{
+              position:static;
+              width: 48px;
+              height: 48px;
+              //border: none;
+              background-image: url('../assets/images/btnLeft.png');
+              background-size: cover;
             }
         }
     }

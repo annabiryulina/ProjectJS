@@ -45,7 +45,10 @@ document.querySelectorAll('a').forEach(link => {
     const content = document.getElementById("content");
     content.innerHTML = `
       <h1 class = "header-shop">Fashion</h1>
-      <a class = "link-in-shop" href="index.html" target="_blank" rel="noopener noreferrer"> <p class = "paragraphe-shop">Home </a> <span> > </span> Fashion</p>
+    <p class="paragraphe-shop">
+  <a class="link-in-shop" href="index.html" target="_blank" rel="noopener noreferrer">Home</a>
+  <span> > </span> Fashion
+</p>
       <div class="container">
         <div class="sidebar">
           <h2>Filters</h2>
@@ -253,10 +256,24 @@ document.querySelectorAll('a').forEach(link => {
     const productId = button.dataset.id;
     const quantityElement = document.getElementById(`quantity-${productId}`);
     const quantity = parseInt(quantityElement.textContent);
-    
+  
     if (quantity > 0) {
-      alert(`Товар  ${productId} добавлен в корзину с количеством ${quantity}`);
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+  
+      const existingProduct = cart.find(item => item.id == productId);
+      if (existingProduct) {
+        existingProduct.quantity += quantity;
+      } else {
+        const product = products.find(p => p.id == productId);
+        cart.push({ id: product.id, title: product.title, price: product.price, image: product.image, quantity });
+      }
+  
+      localStorage.setItem('cart', JSON.stringify(cart));
+
+      quantityElement.textContent = 0;
+
+      alert(`Товар "${productId}" добавлен в корзину!`);
     } else {
-      alert('Количество товара должно быть больше 0 для добавления в корзину.');
+      alert('Выберите количество товара перед добавлением.');
     }
   }

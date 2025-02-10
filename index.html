@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style/style.scss">
     <link rel="stylesheet" href="./style/media.css">
   </head>
+
 <!-- Ирина -->
 
     <header class="header">
@@ -24,7 +25,7 @@
             <li><a href="./signin_page.html">Sign in</a></li>
           </ul>
         </nav>
-        <button class="header__signup__button">Sign Up</button>
+        <a href="./signup_page.html" class="header__signup__button" target="_blank">Sign Up</a>
       </div>
       <section class="header__section">
         <div class="header__section__container">
@@ -36,7 +37,7 @@
             <img src="./assets/images/header_image5.png" alt="header_image5" id="header_image5"/>
             <img src="./assets/images/header_image6.png" alt="header_image6" id="header_image6"/>
             <p>NEW COLLECTION</p>
-           <a href="shop.html" target="_blank" rel="noopener noreferrer"><button class="header__shopnow__button">SHOP NOW</button></a> 
+           <a href="shop.html" target="_blank" rel="noopener noreferrer"><button class="header__shopnow__button">SHOP NOW</button></a>
             <img src="./assets/images/header_image3.png" alt="header_image3" id="header_image3"/>
           </div>
           <div class="header__image4">
@@ -84,17 +85,17 @@
         <div class="main__section1__slider">
           <div class="main__section1__slides">
             <div class="main__section1__slide">
-              <img src="./assets/images/homepage_slider_image1.png" alt="slide1">
+              <img src="./assets/images/main_image1.jpg" alt="slide1">
               <div class="main__section1__slider__info">
                 <p>Spring Sale</p>
                 <h3>30% OFF</h3>
               </div>
             </div>
             <div class="main__section1__slide">
-              <img src="./assets/images/homepage_slider_image2.png" alt="slide2">
+              <img src="./assets/images/main_image2.jpg" alt="slide2">
             </div>
             <div class="main__section1__slide">
-              <img src="./assets/images/homepage_slider_image3.png" alt="slide3">
+              <img src="./assets/images/main_image3.jpg" alt="slide3">
             </div>
           </div>
 
@@ -128,10 +129,10 @@
         <div class="main__section2__products">
           <div class="main__section2__cards">
             <div class="section2_card1">
-              <img src="./assets/images/new_arrivals_image1.png">
+              <img src="./assets/images/main_image4.jpg">
               <div class="cards_stars">
                 <h3>Shiny Dress</h3>
-                <img src="./assets/images/new_arrivals_stars.png">
+                <img src="./assets/images/main_stars.png">
               </div>
               <p>Al Karam</p>
               <p>(4.1k) Customer Reviews</p>
@@ -141,10 +142,10 @@
               </div>
             </div>
             <div class="section2_card2">
-              <img src="./assets/images/new_arrivals_image2.png">
+              <img src="./assets/images/main_image5.jpg">
               <div class="cards_stars">
                 <h3>Long Dress</h3>
-                <img src="./assets/images/new_arrivals_stars.png">
+                <img src="./assets/images/main_stars.png">
               </div>
               <p>Al Karam</p>
               <p>(4.1k) Customer Reviews</p>
@@ -154,10 +155,10 @@
               </div>
             </div>
             <div class="section2_card3">
-              <img src="./assets/images/new_arrivals_image3.png">
+              <img src="./assets/images/main_image6.jpg">
               <div class="cards_stars">
                 <h3>Full Sweater</h3>
-                <img src="./assets/images/new_arrivals_stars.png">
+                <img src="./assets/images/main_stars.png">
               </div>
               <p>Al Karam</p>
               <p>(4.1k) Customer Reviews</p>
@@ -167,10 +168,10 @@
               </div>
             </div>
             <div class="section2_card4">
-              <img src="./assets/images/new_arrivals_image4.png">
+              <img src="./assets/images/main_image7.jpg">
               <div class="cards_stars">
                 <h3>White Dress</h3>
-                <img src="./assets/images/new_arrivals_stars.png">
+                <img src="./assets/images/main_stars.png">
               </div>
               <p>Al Karam</p>
               <p>(4.1k) Customer Reviews</p>
@@ -180,10 +181,10 @@
               </div>
             </div>
             <div class="section2_card5">
-              <img src="./assets/images/new_arrivals_image5.png">
+              <img src="./assets/images/main_image8.jpg">
               <div class="cards_stars">
                 <h3>Colorful Dress</h3>
-                <img src="./assets/images/new_arrivals_stars.png">
+                <img src="./assets/images/main_stars.png">
               </div>
               <p>Al Karam</p>
               <p>(4.1k) Customer Reviews</p>
@@ -193,10 +194,10 @@
               </div>
             </div>
             <div class="section2_card6">
-              <img src="./assets/images/new_arrivals_image6.png">
+              <img src="./assets/images/main_image9.jpg">
               <div class="cards_stars">
                 <h3>White Shirts</h3>
-                <img src="./assets/images/new_arrivals_stars.png">
+                <img src="./assets/images/main_stars.png">
               </div>
               <p>Al Karam</p>
               <p>(4.1k) Customer Reviews</p>
@@ -207,7 +208,9 @@
             </div>
           </div>
         </div>
-        <button class="main__viewmore__button">View More</button>
+        <div class="main__viewmore__button">
+          <a href="./shop.html" class="main__viewmore__button" target="_blank">View More</a>
+        </div>
       </section>
     </main>
 
@@ -283,7 +286,6 @@
       <p>Copyright © 2022 Xpro . All Rights Reseved.</p>
     </footer>
 
-    <script type="module" src="./src/signup.js"></script>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

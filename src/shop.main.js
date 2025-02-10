@@ -277,3 +277,15 @@ document.querySelectorAll('a').forEach(link => {
       alert('Выберите количество товара перед добавлением.');
     }
   }
+
+// Anna
+
+  const cartIcon = document.getElementById('cart-icon');
+  cartIcon.addEventListener('click', function() {
+    window.location.href = './cart.html';
+});
+
+  const homeLink = document.getElementById('home-link');
+  homeLink.addEventListener('click', function() {
+    window.location.href = './index.html';
+});

@@ -1,0 +1,279 @@
+[33mcommit 2356652951da91078dceac3b82e69829250c9831[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Black8Jade <Irinakhudina@gmail.com>
+Date:   Mon Feb 10 11:37:23 2025 +0300
+
+    Add files via upload
+
+[33mcommit 954cc3026bdbe7097597c448c9396d4f5cbc81fe[m
+Merge: 900960a a2c7557
+Author: Sorokgrish <168423934+Sorokgrish@users.noreply.github.com>
+Date:   Sun Feb 9 23:11:48 2025 +0300
+
+    Merge pull request #10 from annabiryulina/Nastya
+    
+    Nastya
+
+[33mcommit a2c75577fca431750a9b5c469865fab2be335933[m[33m ([m[1;31morigin/Nastya[m[33m)[m
+Author: Nastya Sorokova <ngrigis35@gmail.com>
+Date:   Sun Feb 9 23:14:20 2025 +0300
+
+    Slider bug fixes
+
+[33mcommit 62215c58881fc9929489fa2413e1628ffdd786eb[m
+Merge: 1d745d2 900960a
+Author: Nastya Sorokova <ngrigis35@gmail.com>
+Date:   Sun Feb 9 23:10:10 2025 +0300
+
+    Merge branch 'dev' of https://github.com/annabiryulina/ProjectJS into Nastya
+
+[33mcommit 1d745d23cf3a9d2b78980f270bd77105e06b4297[m
+Author: Nastya Sorokova <ngrigis35@gmail.com>
+Date:   Sun Feb 9 22:49:06 2025 +0300
+
+    signed part of the code
+
+[33mcommit 0186f3facc279103fc5340fca2a42f715f651a66[m
+Author: Nastya Sorokova <ngrigis35@gmail.com>
+Date:   Sun Feb 9 22:40:27 2025 +0300
+
+    Corrections to review slider buttons, block size
+    adjustments.
+
+[33mcommit 900960a1e755ec3260241a8133847eafb72ac2d1[m
+Author: Anna <134687892+annabiryulina@users.noreply.github.com>
+Date:   Sun Feb 9 21:29:25 2025 +0300
+
+    Create README.md
+
+[33mcommit 3493c02cdd1105f33f26f0b91f8026562bed9635[m
+Merge: f389eb8 244173e
+Author: Anna <134687892+annabiryulina@users.noreply.github.com>
+Date:   Sun Feb 9 20:48:18 2025 +0300
+
+    Merge pull request #7 from annabiryulina/Anya
+    
+    welcome_after_sign page
+
+[33mcommit 244173e004eca9738362f4309997290f359f1812[m[33m ([m[1;31morigin/Anya[m[33m)[m
+Merge: dfc0e55 f389eb8
+Author: Anna <134687892+annabiryulina@users.noreply.github.com>
+Date:   Sun Feb 9 20:47:58 2025 +0300
+
+    Merge branch 'dev' into Anya
+
+[33mcommit dfc0e55520d5865c78a8629c6ac30c46be6f169a[m
+Author: Anna <biryulina.anna@gmail.com>
+Date:   Sun Feb 9 20:38:42 2025 +0300
+
+    create welcome_after_sign page with styles, add link to this page into signin and signup pages, add signature to all files
+
+[33mcommit f389eb878c800a4d12e878214df8211ea1707315[m
+Merge: e8412f4 f4b27fd
+Author: Julia Michaela <98211262+JuliaMichaela@users.noreply.github.com>
+Date:   Sun Feb 9 17:43:48 2025 +0300
+
+    Merge pull request #6 from annabiryulina/Yulia
+    
+    Created page 'cart.html'
+
+[33mcommit f4b27fd3e51228230240fc225156e2beaeb32154[m[33m ([m[1;31morigin/Yulia[m[33m)[m
+Author: JuliaMichaela <juliaperez@yandex.ru>
+Date:   Sun Feb 9 17:23:42 2025 +0300
+
+    Created page 'cart.html'
+
+[33mcommit 54f04ec5c844265bc5bd274c9d39ced5e487af97[m
+Author: Nastya Sorokova <ngrigis35@gmail.com>
+Date:   Sun Feb 9 16:32:54 2025 +0300
+
+    firebase
+
+[33mcommit e8412f4a2a6383cb59e823eea6ec462655af2378[m
+Author: taticornaz <tatyana.korotkova.1997@mail.ru>
+Date:   Sun Feb 9 13:56:58 2025 +0100
+
+    Added link to return home page
+
+[33mcommit 5400c827148fbf87ecaf7d9985d16992efae01bc[m
+Author: taticornaz <tatyana.korotkova.1997@mail.ru>
+Date:   Sat Feb 8 23:36:54 2025 +0100
+
+    changed styles
+
+[33mcommit f498a1c85e21f0ce2b5a339b129c8f6ac14fe682[m
+Author: taticornaz <tatyana.korotkova.1997@mail.ru>
+Date:   Sat Feb 8 15:03:53 2025 +0100
+
+    Added link in button  to Shop
+
+[33mcommit 2055498fb8e8a3f01bd405a8419129f468032899[m
+Merge: 3938153 dcb1a92
+Author: taticornaz <tatyana.korotkova.1997@mail.ru>
+Date:   Sat Feb 8 14:54:27 2025 +0100
+
+    Merge branch 'dev' of https://github.com/annabiryulina/ProjectJS into dev
+
+[33mcommit 393815353bd0dbd19df12775446f6bc752d0ba74[m
+Merge: 7c4cdf1 1e01ab4
+Author: taticornaz <tatyana.korotkova.1997@mail.ru>
+Date:   Sat Feb 8 14:50:16 2025 +0100
+
+    Merge branch 'Tanya' into dev
+
+[33mcommit 1e01ab4e63161e4f9cd37fea8f4558e977179ab6[m[33m ([m[1;31morigin/Tanya[m[33m)[m
+Author: taticornaz <tatyana.korotkova.1997@mail.ru>
+Date:   Sat Feb 8 14:26:12 2025 +0100
+
+    changed structure  html
+
+[33mcommit dcb1a92563b5f5b040a26eaf33ebcce6600ee7a8[m
+Author: Black8Jade <irinakhudina@gmail.com>
+Date:   Sat Feb 8 03:24:29 2025 +0300
+
+    images added
+
+[33mcommit 1ae2775df503179974f04ba9a8d55ac10ec2ad12[m
+Author: Black8Jade <irinakhudina@gmail.com>
+Date:   Sat Feb 8 02:42:16 2025 +0300
+
+    fixed the first part of the homepage
+
+[33mcommit 683ba0bcf013c9e4b1e661264f785ec910642b5c[m
+Author: Black8Jade <irinakhudina@gmail.com>
+Date:   Sat Feb 8 02:27:30 2025 +0300
+
+    Очистка кэша и повторное добавление файлов
+
+[33mcommit 7c4cdf16501def7f06522c4cc4a731635a2dad66[m
+Author: Anna <biryulina.anna@gmail.com>
+Date:   Tue Feb 4 01:11:28 2025 +0300
+
+    conntected sign in page to the link in header, fix import of sign pages.scss
+
+[33mcommit 7090fbd4694a137c97a8169023801daae39fcf49[m
+Merge: aabe8a7 926d8d7
+Author: Anna <134687892+annabiryulina@users.noreply.github.com>
+Date:   Tue Feb 4 00:40:11 2025 +0300
+
+    Merge pull request #4 from annabiryulina/Anya
+    
+    Anya
+
+[33mcommit 926d8d796fa2220dff717358fa60ad42bcc895d3[m
+Merge: cb71b57 aabe8a7
+Author: Anna <134687892+annabiryulina@users.noreply.github.com>
+Date:   Tue Feb 4 00:39:44 2025 +0300
+
+    Merge branch 'dev' into Anya
+
+[33mcommit cb71b57974b4b543c5bf13538c857fc1e70e4166[m
+Author: Anna <biryulina.anna@gmail.com>
+Date:   Tue Feb 4 00:34:10 2025 +0300
+
+    change folder for images
+
+[33mcommit 96a05cdb5b8b7241d5720de4f9c12da89baa5e33[m
+Author: Anna <biryulina.anna@gmail.com>
+Date:   Tue Feb 4 00:20:59 2025 +0300
+
+    create js for both pages
+
+[33mcommit aabe8a7dae92268e9d5f82b09af058a2a8eefc80[m
+Merge: 920077b 40e614d
+Author: Black8Jade <Irinakhudina@gmail.com>
+Date:   Sat Feb 1 22:54:03 2025 +0300
+
+    Merge pull request #3 from annabiryulina/Ira
+    
+    Merge branches 'Nastya' / 'Ira'.
+
+[33mcommit 40e614d3c2f44cf04d90e5a407a88b409edf82b4[m[33m ([m[1;31morigin/Ira[m[33m)[m
+Merge: 36f317d 920077b
+Author: Black8Jade <irinakhudina@gmail.com>
+Date:   Sat Feb 1 22:10:58 2025 +0300
+
+    Merge branch 'dev' into Ira
+
+[33mcommit 36f317d8a8f1754f71866e4b9b71fc5516350c68[m
+Author: Nastya Sorokova <ngrigis35@gmail.com>
+Date:   Fri Jan 31 10:41:32 2025 +0300
+
+    Feat:
+    connecting a slider in js, connecting a subscription form in js
+
+[33mcommit 5ad1dc5dc948cc346f36c05ee63eeedd9119d9bb[m
+Author: Nastya Sorokova <ngrigis35@gmail.com>
+Date:   Sun Jan 26 13:55:14 2025 +0300
+
+    feat:
+    layout of the reviews block, the newsletter subscription block, as well as the footer
+
+[33mcommit 613973ae2a685a515f31342f00314b8860af6923[m
+Author: Nastya Sorokova <ngrigis35@gmail.com>
+Date:   Thu Jan 23 00:18:58 2025 +0300
+
+    feat:
+    layout of the promotion section, reviews, Instagram
+
+[33mcommit e05ce8a37ee48bb1e2435ad1ba43936d6a05b45e[m
+Author: Black8Jade <irinakhudina@gmail.com>
+Date:   Sat Feb 1 06:36:46 2025 +0300
+
+    Ira - fixed the first part of the homepage
+
+[33mcommit 4b0e7e93ac312670e44ca786f491ccd009b119bc[m
+Author: Black8Jade <irinakhudina@gmail.com>
+Date:   Fri Jan 31 22:06:05 2025 +0300
+
+    Ira - fixed the first part of the homepage
+
+[33mcommit 920077b357611d7a943c27028d0889910f6803de[m
+Merge: 1a055b8 5111ce8
+Author: Sorokgrish <168423934+Sorokgrish@users.noreply.github.com>
+Date:   Fri Jan 31 10:43:24 2025 +0300
+
+    Merge pull request #1 from annabiryulina/Nastya
+    
+    The layout of part of the main page, the connection of the review slider and the subscription form have been completed.
+
+[33mcommit d387080b7e301e73a8ba02cfdb13e1e1a1f077d9[m
+Author: taticornaz <tatyana.korotkova.1997@mail.ru>
+Date:   Fri Jan 31 00:26:58 2025 +0100
+
+    Added JS filters
+
+[33mcommit 001cd3c25cb7288236deceedcc3398f0e830e18f[m
+Author: Black8Jade <irinakhudina@gmail.com>
+Date:   Tue Jan 28 22:50:33 2025 +0300
+
+    Ira - fixed the first part of the homepage
+
+[33mcommit d986822e4399d6bf86895850df49c2ed8ab144f7[m
+Author: Anna <biryulina.anna@gmail.com>
+Date:   Tue Jan 28 21:27:32 2025 +0300
+
+    rename scss-file, fix selectors in both html-pages and scss-file, add objects to signin page, fix styles
+
+[33mcommit 5ae6eb2837c514cbcdbb112c66040fec19b3dacd[m
+Author: Anna <biryulina.anna@gmail.com>
+Date:   Tue Jan 28 20:31:16 2025 +0300
+
+    add signin page, add image for signin page
+
+[33mcommit 64161ecd5f67ba3cb8f8f5e0d4cf52aa340c034c[m
+Author: Anna <biryulina.anna@gmail.com>
+Date:   Tue Jan 28 20:21:48 2025 +0300
+
+    add styles, fix objects structure
+
+[33mcommit c0edb62fdf6d3492f8182e7afc8d63992790e171[m
+Author: Black8Jade <irinakhudina@gmail.com>
+Date:   Tue Jan 28 10:50:47 2025 +0300
+
+    Ira - add the first part of the homepage
+
+[33mcommit 3c68e7f52e9510c1bd7c64031471b01f24d0a7c4[m
+Author: Anna <biryulina.anna@gmail.com>
+Date:   Mon Jan 27 19:22:13 2025 +0300
+
+    create signup_page.html, create signup_page.scss, basic settings, add div structure
